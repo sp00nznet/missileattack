@@ -1,0 +1,37 @@
+=== NE Executable: missileattack/original/ex/MISSILE.EXE ===
+Linker: 5.14
+Target OS: Windows
+Flags: 0x030A (GLOBALHEAP | PROTMODE)
+Entry: seg 1:27D0
+Stack: seg 2, SP=0x0000
+Alignment shift: 4 (sector size: 16)
+
+Segments: 2 total (1 CODE, 1 DATA)
+Code size: 20,975 bytes
+Relocations: 165 total
+
+Imported modules: MMSYSTEM, win87em, KERNEL, GDI, USER
+
+Resident names (2):
+  0: MISSILE
+  6: ___EXPORTEDSTUB
+
+Entry points (9):
+  #1: seg 1:0x01AC (WNDPROC)
+  #2: seg 1:0x22A8 (ABOUTMSGPROC)
+  #3: seg 1:0x233C (HOWTOMSGPROC)
+  #4: seg 1:0x248A (HIGHMSGPROC)
+  #5: seg 1:0x23D0 (ENTRYMSGPROC)
+  #6: seg 1:0x2D22 (___EXPORTEDSTUB)
+  #7: seg 1:0x1DD8
+  #8: seg 1:0x1E62
+  #9: seg 1:0x4810
+
+=== Code Segments ===
+  Seg   1: 0x00000800  size=0x51EF ( 20975), 163 relocs
+
+=== Relocation Summary ===
+  Internal references: 13
+  Import references: 152
+  Code segments referenced by relocations: 0
+  Data segments referenced by relocations: 0
